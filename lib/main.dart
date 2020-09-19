@@ -47,7 +47,6 @@ class _MyHomePageState extends State<MyHomePage> {
           builder: (BuildContext context,AsyncSnapshot snapshot ){
             return Text("${snapshot.data}",style: TextStyle(color:Theme.of(context).primaryColor,fontSize:72),);
           },
-          ),
       ),
       floatingActionButton: Row(
         mainAxisAlignment: MainAxisAlignment.end,
